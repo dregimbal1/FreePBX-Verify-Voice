@@ -41,7 +41,7 @@ sql($sql);
 # Create call file
 $call_file = array(
 	'time' => time(),
-	'ext' => '14842252735',
+	'ext' => $_POST['countrycode'] . $call_data['callerid'],
 	'maxretries' => 2,
 	'retrytime' => 15,
 	'waittime' => 20,
