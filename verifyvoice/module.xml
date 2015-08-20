@@ -1,0 +1,22 @@
+<module>
+	<rawname>verifyvoice</rawname>
+	<name>Verify - Voice</name>
+	<version>0.0.1</version>
+	<publisher>David Regimbal</publisher>
+	<license>MIT License</license>
+	<candisable>yes</candisable>
+	<canuninstall>yes</canuninstall>
+	<category>Applications</category>
+	<description>
+		Verify - Voice speaks aloud a 4 digit pin.
+	</description>
+	<changelog>
+	</changelog>
+	<depends>
+		<engine>asterisk 1.8</engine>
+		<module>core</module>
+	</depends>
+	<menuitems>
+		<verifyvoice>Verify - Voice</verifyvoice>
+	</menuitems>
+</module>
